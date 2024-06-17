@@ -1,125 +1,79 @@
 ﻿#include <iostream>
 
 using namespace std;
+
+#define SIZE 10
 template<typename T>
-class CircleLinkedList
+class Stack
 {
 private:
-	int size;
-	struct Node
-	{
-		T data;
-		Node * next;
-	};
-	Node * head;
+	int top;
+	T container[SIZE];
 public:
-	CircleLinkedList()
+	Stack()
 	{
-		size = 0;
-		head = nullptr;
-	}
-	void PushBack(T data)
-	{
-		Node * newNode = new Node;
-		newNode->data = data;
-		if (head == nullptr)
+		top = -1;
+		for (int i = 0; i < SIZE; i++)
 		{
-			head = newNode;
-			newNode->next = head;
+			container[i] = 0;
+		}
+	}
+	void Push(T data)
+	{
+		if (top >= SIZE-1)
+		{
+			cout << "Stack Overflow" << endl;
+		}
+		else 
+		{
+			container[++top] = data;
+		}
+	}
+	void Pop()
+	{
+		if (Empty)
+		{
+			cout << "Stack is Empty" << endl;
 		}
 		else
 		{
-			newNode->next = head->next;
-			head->next = newNode;
-			head = newNode;
+			top--;
 		}
-		size++;
 	}
-	void PushFront()
+	bool Empty()
 	{
-		Node * newNode = new Node;
-		newNode->data = data;
-		if (head == nullptr)
+		if (top <= -1)
 		{
-			head = newNode;
-			newNode->next = head;
+			return true;
 		}
 		else
 		{
-			newNode->next = head->next;
-			head->next = newNode;
-		}
-		size++;
-	};
-	void PopFront()
-	{
-		if (head == nullptr)
-		{
-			cout << "Linked List is Empty" << endl;
-		}
-		else
-		{
-			Node * deleteNode = head->next;
-			if (head == head->next)
-			{
-				head = nullptr;
-				delete deleteNode;
-			}
-			else
-			{
-				head->next = deleteNode->next;
-			}
-			delete deleteNode;
-			size--;
+			return false;
 		}
 	}
-	void PopBack()
+	int & Size()
 	{
-		if (head == nullptr)
-		{
-			cout << "Linked List is Empty" << endl;
-		}
-		else
-		{
-			Node * currentNode = head;
-			Node * deleteNode = head;
-			if (head == head->next)
-			{
-				head = nullptr;
-			}
-			else
-			{
-				for (int i = 0; i < size - 1; i++)
-				{
-					currentNode = currentNode->next;
-				}
-				curentNode->head
-			}
-		}
+		return top;
 	}
-	void Show()
+	T & Top()
 	{
-		if (head != nullptr)
-		{
-			Node * currentNode = head->next;
-			for (int i = 0; i < size; i++)
-			{
-				cout << currentNode->data << endl;
-				currentNode = currentNode->next;
-			}
-		}
-	}
+		return container[top];
+	}	
 };
+bool CheckBracket(std::string content)
+	{
+	Stack<char> bracket;
+		{
+		if (content.length() <= 0)
+		{
+			{
+				return false;
+			}
+		}
+	}	
 int main()
 {
-	CircleLinkedList<int> circleLinkedList;
+	Stack<int> stack;
 
-	circleLinkedList.PushBack(10);
-	circleLinkedList.PushBack(20);
-	circleLinkedList.PushFront();
-
-	circleLinkedList.PopFront();
-
-	circleLinkedList.Show();
 	return 0;
 }
