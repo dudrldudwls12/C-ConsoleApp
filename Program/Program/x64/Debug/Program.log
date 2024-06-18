@@ -1,2 +1,2 @@
 ﻿  Program.cpp
-C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\Program.cpp(34,7): error C3867: 'Stack<int>::Empty': 비표준 구문입니다. '&'를 사용하여 멤버 포인터를 만드세요.
+  Program.vcxproj -> C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\x64\Debug\Program.exe
