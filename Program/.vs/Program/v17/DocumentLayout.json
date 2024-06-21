@@ -7,7 +7,13 @@
       "RelativeMoniker": "D:0:0:{DCCCED4E-B5CE-453D-AF75-51E18CBA240C}|Program.vcxproj|solutionrelative:Program.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{00EB6DE4-BE4B-4EDA-A6CD-5C9E74D686FD}|..\\Class8th (String)\\Class8th (String).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class8th (String)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C65A356D-94C6-4624-9DA5-5495493180AA}|..\\Class7th (Vector)\\Class7th (Vector).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class7th (Vector)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AA49F11-A3D6-45BC-8BCC-01E054E023FB}|..\\Class2th (Double Linked List)\\Class2th (Double Linked List).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class2th (Double Linked List)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D457B90F-1A8F-432C-9BC7-943F3F847629}|..\\Class5th (Linear Queue)\\Class5th (Linear Queue).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class5th (Linear Queue)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
@@ -23,9 +29,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{C292261A-786D-4F7E-8ADE-DF7CDC45BEE0}|..\\Class3th (Circle Linked List)\\Class3th (Circle Linked List).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class3th (Circle Linked List)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3AA49F11-A3D6-45BC-8BCC-01E054E023FB}|..\\Class2th (Double Linked List)\\Class2th (Double Linked List).vcxproj|C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class2th (Double Linked List)\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,6 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class8th (String)\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Class8th (String)\\Source.cpp",
+              "ToolTip": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class8th (String)\\Source.cpp",
+              "RelativeToolTip": "..\\Class8th (String)\\Source.cpp",
+              "ViewState": "AQIAAGgAAAAAAAAAAAAcwHwAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-21T10:03:28.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class7th (Vector)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class7th (Vector)\\Source.cpp",
@@ -56,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class6th (Circle Queue)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class6th (Circle Queue)\\Source.cpp",
@@ -68,7 +84,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class5th (Linear Queue)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class5th (Linear Queue)\\Source.cpp",
@@ -80,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class4th (Stack)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class4th (Stack)\\Source.cpp",
@@ -92,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class3th (Circle Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class3th (Circle Linked List)\\Source.cpp",
@@ -104,7 +120,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class1th (Single Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class1th (Single Linked List)\\Source.cpp",
@@ -116,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Class2th (Double Linked List)\\Source.cpp",
               "RelativeDocumentMoniker": "..\\Class2th (Double Linked List)\\Source.cpp",
@@ -124,7 +140,8 @@
               "RelativeToolTip": "..\\Class2th (Double Linked List)\\Source.cpp",
               "ViewState": "AQIAAHsAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-06-14T09:03:23.311Z"
+              "WhenOpened": "2024-06-14T09:03:23.311Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -134,7 +151,7 @@
               "RelativeDocumentMoniker": "Program.cpp",
               "ToolTip": "C:\\Users\\cacas\\OneDrive\\\uBB38\uC11C\\GitHub\\C-ConsoleApp\\Program\\Program.cpp",
               "RelativeToolTip": "Program.cpp",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAawC4AAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-10T09:02:55.642Z",
               "EditorCaption": ""
