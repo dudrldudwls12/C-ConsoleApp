@@ -1,2 +1,2 @@
 ﻿  Program.cpp
-C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\Program.cpp(1,1): error C1041: 프로그램 데이터베이스 'C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\Program\x64\Debug\vc143.pdb'을(를) 열 수 없습니다. 여러 CL.EXE에서 동일한 .PDB 파일에 쓰는 경우 /FS를 사용하십시오.
+  Program.vcxproj -> C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\x64\Debug\Program.exe
