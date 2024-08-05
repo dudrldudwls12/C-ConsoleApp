@@ -1,2 +1,2 @@
 ﻿  Program.cpp
-  Program.vcxproj -> C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\x64\Debug\Program.exe
+C:\Users\cacas\OneDrive\문서\GitHub\C-ConsoleApp\Program\Program.cpp(39,8): error C2374: 'index': 재정의. 여러 번 초기화했습니다.
